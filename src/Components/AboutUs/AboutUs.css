@@ -1,0 +1,8 @@
+.aboutUsTiles {
+  margin-top: 60px;
+  padding: 1em;
+  width: 88%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+

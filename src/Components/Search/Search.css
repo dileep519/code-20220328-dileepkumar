@@ -1,0 +1,58 @@
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.searchButton {
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  width: 25%;
+}
+
+.searchButtonSubContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 110%;
+  /* or 29px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.buttonText {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 780px) {
+  .searchContainer {
+    flex-direction: column;
+  }
+
+  .searchButton {
+    width: 80%;
+  }
+
+  .searchButtonSubContainer {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+}

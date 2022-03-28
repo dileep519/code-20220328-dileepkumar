@@ -1,0 +1,6 @@
+.buttonContainer {
+  width: fit-content;
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 10px;
+  margin-right: 3px;
+}
